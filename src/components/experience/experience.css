@@ -1,14 +1,14 @@
 .experience_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
 
 
 }
 
 .experience_container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1.4rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -45,3 +45,34 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+/* Media Query (Medium Size)*/
+
+@media screen and (max-width: 1024px) {
+    .experience_container{
+        grid-template-columns: 1fr;
+    }
+    .experience_container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience_content{
+        padding: 1rem;
+    }
+ }
+ 
+ /* Media Query (Small Size)*/
+ 
+ @media screen and (max-width: 600px) {
+    .experience_container{
+        gap: 1rem;
+    }
+    .experience_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+ }
+ 
+ 
+ 
