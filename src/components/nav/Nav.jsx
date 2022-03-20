@@ -3,7 +3,6 @@ import "./nav.css"
 import {FcHome} from "react-icons/fc"
 import {FcAbout} from "react-icons/fc"
 import {GrUserExpert} from "react-icons/gr"
-import {FcServices} from "react-icons/fc"
 import {FcContacts} from "react-icons/fc"
 
 import { useState } from 'react'
