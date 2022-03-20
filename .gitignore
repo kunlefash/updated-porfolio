@@ -22,7 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 src/assets/image1.jpg
-src/assets/image1.jpg
 .gitignore
 src/assets/image4.jpg
 src/assets/image6.jpg
