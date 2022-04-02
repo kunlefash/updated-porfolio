@@ -33,13 +33,13 @@ const About = () => {
           <article className='about_card'>
             <FaFolder className='about_icon'/>
             <h5>Projects</h5>
-            <small>10+ projects completed</small>
+            <small>5+ projects completed</small>
           </article>
         </div>
       
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum ipsam molestiae saepe id inventore earum sapiente obcaecati, nesciunt quae quod a dolorem, dolores laudantium deserunt voluptate voluptates ipsum quo!
+          A result-oriented frontend developer passionate about developing fully into a Software Engineer.
         </p>
         <a href="#contact" className='btn btn-primary'>Contact Me</a>
       </div>

@@ -3,6 +3,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
+.h5_wahala{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .portfolio_item{
@@ -13,7 +18,11 @@
     transition: var(--transition);
 
 }
-
+.primary{
+    width: 9rem;
+    height: 3.5rem;
+    align-items: center;
+}
 .portfolio_item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;

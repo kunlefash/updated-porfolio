@@ -9,7 +9,7 @@ import  IMG6 from "../../assets/image6.jpg"
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h5 className='h5_wahala'>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
@@ -17,20 +17,27 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" className='the_images'/>
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Ethereum Transaction Crawler</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://github.com/kunlefash" className='btn btn-primary primary' target="_blank">Github</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" className='the_images' />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>A simple Netflix Clone</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://github.com/kunlefash" className='btn btn-primary primary' target="_blank">Github</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item-image">
+            <img src={IMG6} alt="" className='the_images'/>
+          </div>
+          <h3>A Blockchain Based E-Voting Web App</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/kunlefash" className='btn btn-primary primary' target="_blank">Github</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -39,41 +46,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://github.com/kunlefash" className='btn btn-primary primary' target="_blank">Github</a>
           </div>
         </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="" className='the_images'/>
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="" className='the_images'/>
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="" className='the_images'/>
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/kunlefash" className='btn' target="_blank">GitHub</a>
-            <a href="https://github.com/kunlefash" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-         
-        </article>
+    
       </div>
     </section>
   )

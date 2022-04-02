@@ -61,9 +61,13 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-    color: white;
+    color: var(--color-primary);
+    transition: var(--transition);
 }
 
+.scroll_down:hover{
+    color: white;
+}
 /* Media Query(Tabs)Medium Size*/
 
 @media screen and (max-width: 1024px){
