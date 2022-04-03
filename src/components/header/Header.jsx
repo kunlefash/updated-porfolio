@@ -1,8 +1,9 @@
 import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
-import ME from "../../../src/assets/me.png"
 import Socials from './Socials'
+import { BiCheck } from "react-icons/bi"
+
 const Header = () => {
   return (
     <header>
@@ -14,10 +15,9 @@ const Header = () => {
         <Socials />
 
         <div className="me">
-          <img src={ME} alt="me" />
 
         </div>
-        <a href="#contact" className='scroll_down'>End of Page</a>
+        <a href="#contact" className='scroll_down'><BiCheck/></a>
       </div>
     </header>
   )
