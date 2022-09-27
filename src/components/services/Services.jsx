@@ -11,7 +11,6 @@ const Services = () => {
           <div className="service_head">
             <h3>UI/UX Design</h3>
           </div>
-
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
