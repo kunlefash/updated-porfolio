@@ -11,7 +11,6 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5 className="h5_wahala">My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <div className="portfolio_item-image">
@@ -20,11 +19,11 @@ const Portfolio = () => {
           <h3>Ethereum Transaction Crawler</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/kunlefash/Ethereum-Transaction-Crawler"
+              href="https://63315e48b1a933558c3b32fe--eth-crawler.netlify.app/"
               className="btn btn-primary primary"
               target="_blank"
             >
-              Github
+              Click Here
             </a>
           </div>
         </article>
@@ -39,7 +38,7 @@ const Portfolio = () => {
               className="btn btn-primary primary"
               target="_blank"
             >
-              Github
+              Click Here
             </a>
           </div>
         </article>
@@ -47,14 +46,14 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" className="the_images" />
           </div>
-          <h3>A Blockchain Based E-Voting Web App</h3>
+          <h3>A Calendar App </h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/kunlefash"
+              href="https://calendar-5mhfjacdm-kunlefash.vercel.app/"
               className="btn btn-primary primary"
               target="_blank"
             >
-              Github
+              Click Here
             </a>
           </div>
         </article>
@@ -62,14 +61,14 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG6} alt="" className="the_images" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>A Simple Video Chat App</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/kunlefash"
+              href="https://video-chat-fr9spqofl-kunlefash.vercel.app/"
               className="btn btn-primary primary"
               target="_blank"
             >
-              Github
+              Click Here
             </a>
           </div>
         </article>
