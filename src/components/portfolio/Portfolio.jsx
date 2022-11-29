@@ -6,6 +6,7 @@ import IMG3 from "../../assets/image3.jpg";
 import IMG4 from "../../assets/image4.jpg";
 import IMG5 from "../../assets/image5.jpg";
 import IMG6 from "../../assets/image6.jpg";
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
